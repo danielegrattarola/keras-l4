@@ -32,6 +32,8 @@ from keras_l4 import L4Adam, L4Mom
 This are the results I got by running the L4Adam and L4Mom optimizers as 
 parametrized by the authors in the example code on their repo. I compared 
 their performance with the default Adam and Adadelta implementations in Keras. 
+I used the [`mnist_cnn.py` example](https://github.com/keras-team/keras/blob/master/examples/mnist_cnn.py)
+as reference implementation for MNIST.
 
 ![Loss](examples/logs/images/loss.png)  
 ![Accuracy](examples/logs/images/acc.png)  
